@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.sticker {
+    width: 4cm; /* Set width of the sticker */
+    border-radius: 50%; /* Set border radius to create a circular shape */
+    margin-bottom: 20px; /* Add some margin to the bottom */
+}
+
+.main-question {
+    color: darkred; /* Change color to dark red */
+}
+
+.options {
+    margin-top: 50px;
+}
+
+.option {
+    background-color: darkred;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.result-heading {
+    color: darkblue; /* Change color to dark blue */
+}
+
+.instagram-text {
+    font-weight: bold; /* Make text bold */
+    color: black; /* Set color to black */
+}

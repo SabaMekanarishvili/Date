@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salome's Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img class="sticker" src="pizza_sticker.png" alt="Pizza Sticker"> <!-- Pizza sticker image -->
+        <h1 class="main-question">Salome, will you go on a date with me?</h1> <!-- Main question -->
+        <div class="options">
+            <button class="option" id="yesBtn">YES</button> <!-- "YES" option -->
+            <button class="option" id="noBtn" onmouseover="moveButton()">NO</button> <!-- "NO" option -->
+        </div>
+    </div>
+    <div id="result" class="container" style="display: none;"> <!-- Second section -->
+        <h2 class="result-heading">Right Answer, Now Follow Me Back on Instagram</h2> <!-- First sentence -->
+        <p class="instagram-text">My Instagram: <a href="https://www.instagram.com/sabamekanarishvili/" target="_blank">sabamekanarishvili</a></p> <!-- Second sentence -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
